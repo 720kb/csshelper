@@ -66,8 +66,8 @@
     $rootScope.config.appPath = $location.path();
     $rootScope.config.appFullPath = $location.url();
     $rootScope.config.appCurrentUrl = $rootScope.config.appUrl+$rootScope.config.appFullPath;
-    $rootScope.config.appGithubUrl = 'https://github.com/45kb/csshelper';
-    $rootScope.config.appDownloadUrl = 'https://github.com/45kb/csshelper';
+    $rootScope.config.appGithubUrl = 'https://github.com/720kb/csshelper';
+    $rootScope.config.appDownloadUrl = 'https://github.com/720kb/csshelper';
     $rootScope.layout = {
       responsiveMenu : {
         show: false
