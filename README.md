@@ -5,7 +5,7 @@ css helper full of classes
 
 Documentation
 =========
-https://45kb.github.io/csshelper
+https://720kb.github.io/csshelper
 Feel free to contribute
 ========
 
