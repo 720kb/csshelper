@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="css">
+<head>
+<base href="/csshelper/" />
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300&subset=latin,cyrillic-ext,greek-ext,vietnamese,greek,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/helper.css" />
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/github.min.css"/>
+    <title>Css helper</title>
+</head>
+<body class="bg-black color-black font-custom">
+    <div class="line">
+        <div class="col2 bg-black color-white font-light desktop">
+            <div class="desktop" ng-include="'views/modules/nav/nav.html'"></div>
+        </div>
+        <div class="tablet mobile" ng-include="'views/modules/nav/nav-mobile.html'"></div>
+        <div class="offset-left2 overlay  bg-white over-y-scroll line-tablet line-mobile layer1">
+            <div class="separator30 mobile tablet"></div>
+            <div class="separator15 mobile tablet"></div>
+            <div class="separator3 mobile tablet"></div>
+            <div  ng-view></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script>
+    <script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+    <script src="http://pc035860.github.io/angular-highlightjs/angular-highlightjs.min.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/controllers.js"></script>
+</body>
+</html>

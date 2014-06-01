@@ -1,0 +1,117 @@
+<div class="line bg-azure color-grey ">
+  <div class="line-compress">
+    <div class="separator10"></div>
+    <h1 class="center-content">Layout</h1>
+    <div class="separator10"></div>
+  </div>
+  <div class="hr"></div>
+</div>
+<div class="separator15"></div>
+<div class="line">
+  <div class="line-compress">
+    <h4 class="font-light">
+      {{config.appName}} 
+      adopts a very simple grid system and logic, 
+      <small class="badge bg-lightgrey radius5"><b>.line</b></small> 
+      defines an html row, and 
+      <small class="badge bg-lightgrey radius5"><b>.col*</b></small> 
+      defines a column for the .line row
+    </h4>
+    <div class="separator15"></div>
+    <div class="bg-lightgrey radius3">
+      <h5 class="color-muted font-light radius">
+        <div class="separator5"></div>
+        <div class="line-compress">
+          <i class="fa fa-exclamation color-red"></i>
+          {{config.appName}} does not use any fixed width, if you need to wrap a piece of your html into a fixed width element you could just create a class for it, an example could be 
+          <small class="badge bg-lightgrey radius5"><b>.col-fixed-1</b></small>  {  width:900px; }
+        </div>
+        <div class="separator5"></div>
+      </h5>
+    </div>
+    <div class="separator15"></div>
+    <h1 class="font-light">Basics</h1>
+    <div class="separator15"></div>
+    <div class="line center-content bg-lightgrey">
+      <div class="separator5"></div>
+      .line
+    </div>
+    <div class="center-content">
+      <div class="separator5"></div>
+      <div class="line bg-lightgrey">
+        <div class="col1 bg-azure color-black">.col1</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-lightgrey">
+        <div class="col2 bg-azure color-black">.col2</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-lightgrey">
+        <div class="col3 bg-azure color-black">.col3</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-lightgrey">
+        <div class="col4  bg-azure color-black">.col4</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-lightgrey">
+        <div class="col5  bg-azure color-black">.col5</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-lightgrey">
+        <div class="col6  bg-azure color-black">.col6</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-lightgrey">
+        <div class="col7  bg-azure color-black">.col7</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-lightgrey">
+        <div class="col8  bg-azure color-black">.col8</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-lightgrey">
+        <div class="col9  bg-azure color-black">.col9</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line">
+        <div class="col10  bg-azure color-black">.col10</div>
+      </div>
+      <div class="separator30"></div>
+    </div>
+    <h1 class="font-light">Compressor</h1>
+    <div class="separator15"></div>
+    <div>
+      A compressor <small class="badge bg-lightgrey radius5"><b>.line-compress</b></small> is a <small class="badge bg-lightgrey radius5"><b>.line</b></small>  that is compressed to fit some margins from the parent element, the default margin both on left and right sides is 2%, you can easly change it if you need a different setup
+    </div>
+    <div class="separator15"></div>
+    <div class="line bg-red">
+      <div class="line-compress  bg-lightgrey center-content">
+        .line-compress
+      </div>
+    </div>
+    <div class="separator30"></div>
+    <h1 class="font-light">Offset</h1>
+    <div class="separator15"></div>
+    You can use <small class="badge bg-lightgrey radius5"><b>.offset-right*</b></small> or <small class="badge bg-lightgrey radius5"><b>.offset-left*</b></small> from 1 up to 10  sizes to offset elements ( min offset is 1 = 10%, max offset is 10 = 100% )
+    <div class="separator15"></div>
+    <div class="separator5"></div>
+    <div class="center-content">
+      <div class="line bg-red">
+        <div class="offset-left1 col6 bg-azure color-black">.col6 .offset-left1</div>
+        <div class="col3 bg-lightgrey">&nbsp;</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-red">
+        <div class="offset-left2 col4 bg-azure color-black">.col2 .offset-left2</div>
+        <div class="col4 bg-lightgrey">&nbsp;</div>
+      </div>
+      <div class="separator5"></div>
+      <div class="line bg-red">
+        <div class="offset-right4 col4 bg-azure color-black">.col4 .offset-right5</div>
+        <div class="col2 bg-azure color-black">.col2</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="separator50"></div>

@@ -1,0 +1,25 @@
+{
+  "name": "cssDocumentation",
+  "description": "css helper documentation",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": [
+  ],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-concurrent": "*",
+    "grunt-contrib-watch": "*",
+    "connect-modrewrite": "*"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+
+  }
+}
