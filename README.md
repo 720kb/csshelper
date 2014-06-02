@@ -3,6 +3,8 @@ Css helper
 
 A easy to use CSS helper including many classes.
 
+<b>N.B:</b> <i>The project is at an early stage, so minor and/or radical changes may be made</i>
+
 Documentation
 =========
 link: http://720kb.github.io/csshelper
