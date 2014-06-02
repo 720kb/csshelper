@@ -36,6 +36,20 @@
         $scope.animationClasses[theClass] = true;
       };
     }])
+    .controller('Components', ['$scope', function ($scope) {
+
+      $scope.overlays = {
+        overlay: false,
+        overlayDark: false,
+        overlayLight: false
+      };
+      $scope.openOverlay = function (theOverlay) {
+        $scope.overlays[theOverlay] = true;
+      };
+      $scope.closeOverlay = function (theOverlay) {
+        $scope.overlays[theOverlay] = false;
+      };
+    }])
     .controller('Responsive', ['$scope', '$window', function ($scope, $window) {
       $scope.windowWidth = $window.innerWidth;
       $scope.tabletWidth = 800;

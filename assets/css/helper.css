@@ -93,17 +93,6 @@
   }.color-success{
   color:#2AC171;
   }
-  /*--- BADGES ---*/
-  .badge{
-  padding:0px 5px ;
-  font-size: inherit;
-  }.badge-medium{
-  padding:3px 8px;
-  font-size:inherit;
-  }.badge-large{
-  padding:6px 15px;
-  font-size:16px;
-  }
   /*--- UTILS ---*/
   /*lines*/
   .hr{
@@ -319,21 +308,9 @@
   right:0;
   }.bottom{
   bottom:0;
-  }
-  /*--- OVERLAY ---*/
-  .overlay{
-  position:fixed;
+  }.middle{
   left:0;
   right:0;
-  top:0;
-  bottom:0;
-  height:100%;
-  }
-  .overlay.overlay-dark{
-  background-color:rgba(0,0,0,0.65);
-  }
-  .overlay.overlay-light{
-  background-color: rgba(255,255,255,0.85);
   }
   /*--- BACKGROUNDS ---*/
   .bg-black{
@@ -586,6 +563,41 @@
   margin-right:90%;
   } .offset-right10 {
   margin-right:100%;
+  }
+  /*--- COMPONENTS --*/
+  /*forms*/
+  input, select, textarea{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /*badges*/
+  .badge{
+  padding:0px 5px ;
+  font-size: inherit;
+  }.badge-medium{
+  padding:3px 8px;
+  font-size:15px;
+  font-size:inherit;
+  }.badge-large{
+  padding:6px 15px;
+  font-size:16.5px;
+  }
+  /*overlay*/
+  .overlay{
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  height:100%;
+  }
+  .overlay.overlay-dark{
+  background-color:rgba(0,0,0,0.65);
+  }
+  .overlay.overlay-light{
+  background-color: rgba(255,255,255,0.85);
   }
   /*--- RESPONSIVE ---*/
   /*desktop*/

@@ -41,6 +41,10 @@
         templateUrl:'views/animations/index.html',
         controller:'Animations'
       })
+       .when('/components',{
+        templateUrl:'views/components/index.html',
+        controller:'Components'
+      })
        .when('/responsive',{
         templateUrl:'views/responsive/index.html',
         controller:'Responsive'
