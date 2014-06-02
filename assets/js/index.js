@@ -62,7 +62,7 @@
     $rootScope.config = {};
 
     $rootScope.config.appName = 'Css helper';
-    $rootScope.config.appUrl = $location.protocol()+'://'+$location.host();
+    $rootScope.config.appUrl = $location.protocol()+'://'+$location.host()+':'+$location.port();
     $rootScope.config.appPath = $location.path();
     $rootScope.config.appFullPath = $location.url();
     $rootScope.config.appCurrentUrl = $rootScope.config.appUrl+$rootScope.config.appFullPath;

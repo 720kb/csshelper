@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="css">
 <head>
-<base href="/csshelper/" />
+<base href="/" />
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
@@ -37,6 +37,7 @@
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-51546045-1', '720kb.github.io');
+        ga('set', '&uid', {{USER_ID}});
         ga('send', 'pageview');
     </script>
 </body>
