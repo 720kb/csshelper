@@ -1,6 +1,6 @@
 {
-  "name": "cssDocumentation",
-  "description": "css helper documentation",
+  "name": "csshelper",
+  "description": "another css helper",
   "version": "0.0.1",
   "private": true,
   "keywords": [
@@ -10,16 +10,7 @@
   },
   "devDependencies": {
     "grunt": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-connect": "*",
-    "grunt-concurrent": "*",
-    "grunt-contrib-watch": "*",
-    "connect-modrewrite": "*"
-  },
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-cssmin": "*"
   }
 }
