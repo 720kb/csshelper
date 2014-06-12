@@ -11,6 +11,9 @@
     .controller('Buttons', ['$scope', function ($scope) {
       return $scope;
     }])
+    .controller('Forms', ['$scope', function ($scope) {
+      return $scope;
+    }])
     .controller('Colors', ['$scope', function ($scope) {
       return $scope;
     }])
