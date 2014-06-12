@@ -566,11 +566,30 @@
   }
   /*--- COMPONENTS --*/
   /*forms*/
-  input, select, textarea{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+  input, select, textarea,
+  input:hover, select:hover, textarea:hover,
+  input:focus, select:focus, textarea:focus{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width:100%;
+  min-height: 30px;
+  border:none;
+  padding:0 1.5%;
+  box-shadow:0px 0px 0px 1px rgba(0,0,0,0.15);
+  -webkit-box-shadow:0px 0px 0px 1px rgba(0,0,0,0.15);
+  -moz-box-shadow:0px 0px 0px 1px rgba(0,0,0,0.15);
+  }
+  input[type="radio"],input[type="checkbox"],
+  input[type="radio"]:hover,input[type="checkbox"]:hover,
+  input[type="radio"]:focus,input[type="checkbox"]:focus{
+  box-shadow:none;
+  width:auto;
+  padding:none;
+  }
+  textarea, textarea:hover,textarea:focus{
+  padding-top:5px;
   }
   /*badges*/
   .badge{
@@ -634,8 +653,7 @@
   width:100%;
   margin:0 auto;
   }
-  }
-
+    }
   /****************************************
   ** Put your own theming and extra rules in here
   ** YOUR THEME RULES
