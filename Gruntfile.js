@@ -34,8 +34,7 @@
               var middlewares = [];
               var directory = options.directory || options.base[options.base.length - 1];
 
-              // enable Angular's HTML5 mode
-              middlewares.push(modRewrite(['!\\.html|\\.js|\\.svg|\\.css|\\.png|\\.gif$ /index.html [L]']));
+              middlewares.push(modRewrite(['^.*csshelper(.+)$ $1 [L]']));
 
               if (!Array.isArray(options.base)) {
                 options.base = [options.base];
