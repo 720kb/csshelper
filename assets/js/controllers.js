@@ -11,6 +11,9 @@
     .controller('Buttons', ['$scope', function ($scope) {
       return $scope;
     }])
+    .controller('Forms', ['$scope', function ($scope) {
+      return $scope;
+    }])
     .controller('Colors', ['$scope', function ($scope) {
       return $scope;
     }])
@@ -34,6 +37,20 @@
       };
       $scope.setClass = function (theClass) {
         $scope.animationClasses[theClass] = true;
+      };
+    }])
+    .controller('Components', ['$scope', function ($scope) {
+
+      $scope.overlays = {
+        overlay: false,
+        overlayDark: false,
+        overlayLight: false
+      };
+      $scope.openOverlay = function (theOverlay) {
+        $scope.overlays[theOverlay] = true;
+      };
+      $scope.closeOverlay = function (theOverlay) {
+        $scope.overlays[theOverlay] = false;
       };
     }])
     .controller('Responsive', ['$scope', '$window', function ($scope, $window) {

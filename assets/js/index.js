@@ -21,6 +21,10 @@
         templateUrl:'views/buttons/index.html',
         controller:'Buttons'
       })
+       .when('/forms',{
+        templateUrl:'views/forms/index.html',
+        controller:'Forms'
+      })
        .when('/colors',{
         templateUrl:'views/colors/index.html',
         controller:'Colors'
@@ -40,6 +44,10 @@
        .when('/animations',{
         templateUrl:'views/animations/index.html',
         controller:'Animations'
+      })
+       .when('/components',{
+        templateUrl:'views/components/index.html',
+        controller:'Components'
       })
        .when('/responsive',{
         templateUrl:'views/responsive/index.html',
@@ -62,7 +70,13 @@
     $rootScope.config = {};
 
     $rootScope.config.appName = 'Css helper';
-    $rootScope.config.appUrl = $location.protocol()+'://'+$location.host();
+    $rootScope.config.appUrl = $location.protocol() + '://' + $location.host();
+
+    if (!!$location.port()) {
+
+      $rootScope.config.appUrl += ':'+$location.port();
+    }
+
     $rootScope.config.appPath = $location.path();
     $rootScope.config.appFullPath = $location.url();
     $rootScope.config.appCurrentUrl = $rootScope.config.appUrl+$rootScope.config.appFullPath;

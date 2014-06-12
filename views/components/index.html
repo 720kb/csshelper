@@ -1,0 +1,134 @@
+<div class="line bg-azure color-grey ">
+  <div class="line-compress">
+    <div class="separator10"></div>
+    <h1 class="center-content">Components</h1>
+    <div class="separator10"></div>
+  </div>
+  <div class="hr"></div>
+</div>
+<div class="separator15"></div>
+<div class="line">
+  <div class="line-compress">
+    <h4 class="font-light">
+      {{config.appName}}
+      includes some classes that can be used to create components on the fly.
+      <div>
+        Here is a list of some that will be more useful to you.
+      </div>
+      <div class="separator15"></div>
+      <div class="bg-lightgrey radius3">
+        <h5 class="color-muted font-light radius">
+          <div class="separator5"></div>
+          <div class="line-compress">
+            <i class="fa fa-exclamation color-red"></i>
+            {{config.appName}} <b>components</b> can be created simply adding new custom classes to the existent ones.
+            <div>
+              Usually, when you create a modal or an overlay element, you need some Javascript to interact with it, for example hiding/showing the modal is a JS task.
+            </div>
+          </div>
+          <div class="separator5"></div>
+        </h5>
+      </div>
+      <div class="separator15"></div>
+      <h1 class="color-muted font-light">Overlays</h1>
+      <div class="color-muted">
+        An <b>overlay</b> is an element that covers all your content by default.
+        <div>
+          It can be very usefull for example, in case that you need to create a modal, or an overlay menu for the user.
+          <div>Let's do some examples.</div>
+        </div>
+      </div>
+      <div class="separator15"></div>
+
+      <h2>.overlay</h2>
+      <div class="separator15"></div>
+      <h2 class="color-muted">Code</h2>
+      <div class="line over-x-scroll">
+        <code hljs>
+          <div class="overlay overlay-dark layer4 center-content ">
+            <div class="separator100"></div>
+            <span class="line-compress color-white badge badge-large bg-black radius5">
+              Cool nope? i am covering all your content
+            </span>
+            <div class="separator15"></div>
+            <button type="button" class="btn btn-large bg-muted color-white fixed bottom">
+              Close
+            </button>
+          </div>
+        </code>
+      </div>
+      <div class="separator15"></div>
+      <h2 class="color-muted">Preview</h2>
+      <div class="line bg-azure">
+        <div class="col6 offset-left2">
+          <div class="separator5"></div>
+          <button  type="button"ng-click="openOverlay('overlay');" class="btn btn-medium border bg-white radius3" >Click me
+          </button>
+          <div class="separator5"></div>
+        </div>
+      </div>
+      <div class="overlay overlay-dark layer4 center-content hide" ng-class="{ 'hide': !overlays.overlay }">
+        <div class="separator100"></div>
+        <span class="line-compress color-white badge badge-large bg-black radius5">
+          Cool nope? i am covering all your content
+        </span>
+        <div class="separator15"></div>
+        <button  type="button" class="btn btn-large bg-muted color-white fixed bottom" ng-click="closeOverlay('overlay');">
+          Close
+        </button>
+      </div>
+      <div class="separator15"></div>
+
+      <h2>.overlay-dark</h2>
+      <div class="line bg-lightgrey color-muted">
+        If appended to a <b>.overlay</b> class element it specifies a default rgba dark background
+      </div>
+      <div class="separator15"></div>
+      <h2 class="color-muted">Preview</h2>
+      <div class="line bg-azure">
+        <div class="col6 offset-left2">
+          <div class="separator5"></div>
+          <button  type="button"ng-click="openOverlay('overlayDark');" class="btn btn-medium border bg-white radius3" >Click me
+          </button>
+          <div class="separator5"></div>
+        </div>
+      </div>
+      <div class="overlay overlay-dark layer4 center-content hide" ng-class="{ 'hide': !overlays.overlayDark }">
+        <div class="separator100"></div>
+        <span class="line-compress color-white badge badge-large bg-black radius5">
+          Cool nope? i am covering all your content
+        </span>
+        <div class="separator15"></div>
+        <button  type="button" class="btn btn-large bg-muted color-white fixed bottom" ng-click="closeOverlay('overlayDark');">
+          Close
+        </button>
+      </div>
+      <div class="separator15"></div>
+      <h2>.overlay-light</h2>
+      <div class="line bg-lightgrey color-muted">
+        If appended to a <b>.overlay</b> class element it specifies a default rgba light background
+      </div>
+      <div class="separator15"></div>
+      <h2 class="color-muted">Preview</h2>
+      <div class="line bg-azure">
+        <div class="col6 offset-left2">
+          <div class="separator5"></div>
+          <button  type="button" ng-click="openOverlay('overlayLight');" class="btn btn-medium border bg-white radius3" >Click me
+          </button>
+          <div class="separator5"></div>
+        </div>
+      </div>
+      <div class="overlay overlay-dark layer4 center-content hide" ng-class="{ 'hide': !overlays.overlayLight, 'overlay-light': overlays.overlayLight }">
+        <div class="separator100"></div>
+        <span class="line-compress color-white badge badge-large bg-black radius5">
+          Cool nope? i am covering all your content
+        </span>
+        <div class="separator15"></div>
+        <button  type="button" class="btn btn-large bg-muted color-white fixed bottom" ng-class="{'color-black': overlays.overlayLight }" ng-click="closeOverlay('overlayLight');">
+          Close
+        </button>
+      </div>
+      <div class="separator15"></div>
+    </div>
+  </div>
+  <div class="separator50"></div>
