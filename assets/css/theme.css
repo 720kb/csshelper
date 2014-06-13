@@ -1,10 +1,6 @@
   a {
       color:#FD2941;
   }
-  a:hover {
-      color:#FD2941;
-      text-decoration: underline;
-  }
  .font-custom {
      font-family:'Roboto', sans-serif;
  }
