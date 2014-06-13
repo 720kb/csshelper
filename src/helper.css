@@ -718,38 +718,3 @@
           margin:0 auto;
       }
   }
-  /****************************************
-  ** Put your own theming and extra rules in here
-  ** YOUR THEME RULES
-  *****************************************/
-  .font-custom {
-      font-family:'Roboto', sans-serif;
-  }
-  .bg-red {
-      background-color:#FD2941;
-  }
-  .color-blue {
-      color:#3F42F6;
-  }
-  .bg-azure {
-      background-color:#9CFEF7;
-  }
-  .bg-lightgrey {
-      background-color:#F8F8F8;
-  }
-  .color-grey {
-      color:#666;
-  }
-  .bg-red {
-      background-color: #FD2941;
-  }
-  .color-red {
-      color:#FD2941;
-  }
-  .bg-muted-less {
-      background-color: rgba(0, 0, 0, 0.75);
-  }
-  .bg-grid {
-      background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAJbt279zwjjgzje3t6MYAEYB8RmROaABADmuw8jmdS7KgAAAABJRU5ErkJggg==') repeat bottom right;
-      background-size: 1px;
-  }
