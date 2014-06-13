@@ -39,14 +39,6 @@
   a, button {
       cursor: pointer;
   }
-  /*LINKS*/
-  a {
-      color:#FD2941;
-  }
-  a:hover {
-      color:#FD2941;
-      text-decoration: underline;
-  }
   /*--- BUTTONS ---*/
   button {
       cursor:pointer;
