@@ -1,5 +1,5 @@
 {
-  "name": "cssDocumentation",
+  "name": "csshelper-doc",
   "description": "css helper documentation",
   "version": "0.0.1",
   "private": true,
@@ -15,11 +15,5 @@
     "grunt-concurrent": "*",
     "grunt-contrib-watch": "*",
     "connect-modrewrite": "*"
-  },
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-
   }
 }
