@@ -593,7 +593,7 @@
   }
   /*NO!*/
   .no-border {
-      border: 0 0 0 0;
+      border:none;
   }
   .no-radius {
       -moz-border-radius:0 0 0 0;
