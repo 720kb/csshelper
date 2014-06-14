@@ -3,8 +3,6 @@
       font-size:13.5px;
   }
   *, *:hover, *:focus, *.active {
-      margin: 0 auto;
-      padding: 0;
       text-decoration: none;
       outline:none;
       list-style-type:none;
