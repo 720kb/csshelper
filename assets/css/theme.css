@@ -1,3 +1,10 @@
+pre,code, pre code{
+  padding:0 0 0 0;
+}
+.hljs {
+  margin:0 0 0 0;
+  padding:18px 0 0 0;
+}
   a {
       color:#FD2941;
   }
