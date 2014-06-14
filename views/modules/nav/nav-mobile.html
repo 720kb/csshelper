@@ -20,56 +20,56 @@
   <div class="separator50"></div>
   <div class="col6 offset-left2 color-white center-content">
     <div class="separator30"></div>
-    <a href="#/layout" target="_self" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('layout') < 0, 'active' : config.appPath.indexOf('layout') > -1}">
+    <a href="#/layout" target="_self" ng-click=" responsiveMenu.show = false" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('layout') < 0, 'active' : config.appPath.indexOf('layout') > -1}">
       <span class="col3">
         <i class="fa fa-laptop color-red"></i>
       </span>
       <span class="col7 left-content "> Layout</span>
     </a>
     <div class="separator15"></div>
-    <a href="#/buttons" target="_self" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('buttons') < 0 , 'active' : config.appPath.indexOf('buttons') > -1}">
+    <a href="#/buttons" target="_self" ng-click=" responsiveMenu.show = false" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('buttons') < 0 , 'active' : config.appPath.indexOf('buttons') > -1}">
       <span class="col3">
         <i class="fa fa-circle color-red"></i>
       </span>
       <span class="col7 left-content"> Buttons</span>
     </a>
     <div class="separator15"></div>
-    <a href="#/colors" target="_self" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('colors') < 0, 'active' : config.appPath.indexOf('colors') > -1}">
+    <a href="#/colors" target="_self" ng-click=" responsiveMenu.show = false" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('colors') < 0, 'active' : config.appPath.indexOf('colors') > -1}">
       <span class="col3">
         <i class="fa fa-tint color-red"></i>
       </span>
       <span class="col7 left-content"> Colors</span>
     </a>
     <div class="separator15"></div>
-    <a href="#/backgrounds" target="_self" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('backgrounds') < 0, 'active' : config.appPath.indexOf('backgrounds') > -1}">
+    <a href="#/backgrounds" target="_self"  ng-click=" responsiveMenu.show = false" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('backgrounds') < 0, 'active' : config.appPath.indexOf('backgrounds') > -1}">
       <span class="col3">
         <i class="fa fa-adjust color-red"></i>
       </span>
       <span class="col7 left-content">Backgrounds</span>
     </a>
     <div class="separator15"></div>
-    <a href="#/utils" target="_self" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('utils') < 0, 'active' : config.appPath.indexOf('utils') > -1}">
+    <a href="#/utils" target="_self"  ng-click=" responsiveMenu.show = false" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('utils') < 0, 'active' : config.appPath.indexOf('utils') > -1}">
       <span class="col3">
         <i class="fa fa-cog color-red"></i>
       </span>
       <span class="col7 left-content">Utils </span>
     </a>
     <div class="separator15"></div>
-    <a href="#/no" target="_self" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('no') < 0, 'active' : config.appPath.indexOf('no') > -1}">
+    <a href="#/no" target="_self" ng-click=" responsiveMenu.show = false" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('no') < 0, 'active' : config.appPath.indexOf('no') > -1}">
       <span class="col3">
         <i class="fa fa-exclamation color-red"></i>
       </span>
       <span class="col7 left-content">No</span>
     </a>
     <div class="separator15"></div>
-    <a href="#/animations" target="_self" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('animations') < 0 , 'active' : config.appPath.indexOf('animations') > -1}">
+    <a href="#/animations" target="_self"  ng-click=" responsiveMenu.show = false" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('animations') < 0 , 'active' : config.appPath.indexOf('animations') > -1}">
         <span class="col3">
             <i class="fa fa-magic color-red"></i>
         </span>
         <span class="col7 left-content"> Animations</span>
     </a>
     <div class="separator15"></div>
-    <a href="#/responsive" target="_self" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('responsive') < 0, 'active' : config.appPath.indexOf('responsive') > -1}">
+    <a href="#/responsive" target="_self" ng-click=" responsiveMenu.show = false" class="line btn btn-medium bg-muted border radius3 color-white" ng-class="{'toggle-opacity-hover': config.appPath.indexOf('responsive') < 0, 'active' : config.appPath.indexOf('responsive') > -1}">
       <span class="col3">
         <i class="fa fa-tablet color-red"></i>
       </span>
@@ -77,7 +77,7 @@
     </a>
     <div class="separator15"></div>
     <div class="separator30"></div>
-    <a  ng-href="{{config.appDownloadUrl}}" class="line btn btn-medium bg-muted border radius3 color-white toggle-opacity-inverse-hover">
+    <a  ng-href="{{config.appDownloadUrl}}"  class="line btn btn-medium bg-muted border radius3 color-white toggle-opacity-inverse-hover">
       <span class="col3">
         <i class="fa fa-cloud-download color-white"></i>
       </span>
