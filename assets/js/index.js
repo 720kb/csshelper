@@ -37,6 +37,10 @@
         templateUrl:'views/no/index.html',
         controller:'No'
       })
+       .when('/components',{
+        templateUrl:'views/components/index.html',
+        controller:'Components'
+      })
        .when('/animations',{
         templateUrl:'views/animations/index.html',
         controller:'Animations'

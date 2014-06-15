@@ -23,6 +23,9 @@
     .controller('No', ['$scope', function ($scope) {
       return $scope;
     }])
+    .controller('Components', ['$scope', function ($scope) {
+      return $scope;
+    }])
     .controller('Animations', ['$scope', function ($scope) {
       $scope.animationClasses = {
         'fade-out-slow':false,
