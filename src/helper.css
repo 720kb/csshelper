@@ -287,6 +287,9 @@
   .over-x-hidden {
       overflow-x:hidden;
   }
+  .over-scroll {
+      overflow:scroll;
+  }
   .over-x-scroll {
       overflow-x:scroll;
   }
