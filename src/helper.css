@@ -39,7 +39,6 @@
   a, button {
       cursor: pointer;
   }
-
   /*--- LAYOUT ---*/
   .line {
       -webkit-box-sizing: border-box;
@@ -631,26 +630,53 @@
   }
   /*--- COMPONENTS --*/
   /*forms*/
-  input, select, textarea, input:hover, select:hover, textarea:hover, input:focus, select:focus, textarea:focus {
+  input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       -ms-box-sizing: border-box;
       box-sizing: border-box;
       width:100%;
-      min-height: 30px;
+      height: 30px;
       border:none;
       padding:0 1.5%;
       -webkit-box-shadow :0 0 0 1px rgba(0, 0, 0, 0.15);
       -moz-box-shadow :0 0 0 1px rgba(0, 0, 0, 0.15);
       box-shadow :0 0 0 1px rgba(0, 0, 0, 0.15);
   }
+  select, select:hover, select:focus {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+      width:100%;
+      border:none;
+      background:none;
+      padding:8px 0 0 0;
+      height:30px;
+      border-radius:3px;
+      outline:none;
+      -webkit-box-shadow :0 0 0 1px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow :0 0 0 1px rgba(0, 0, 0, 0.15);
+      box-shadow :0 0 0 1px rgba(0, 0, 0, 0.15);
+  }
+  select option, select option:hover {
+      padding:5px;
+  }
   input[type="radio"], input[type="checkbox"], input[type="radio"]:hover, input[type="checkbox"]:hover, input[type="radio"]:focus, input[type="checkbox"]:focus {
       box-shadow:none;
       width:auto;
       padding:0;
   }
-  textarea, textarea:hover, textarea:focus {
-      padding-top:5px;
+  textarea, textarea:focus, textarea:hover {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: inherit;
+      width:100%;
+      padding:10px 15px;
+      border:none;
+      box-shadow:0 0 0 1px #ddd;
   }
   /*badges*/
   .badge {
