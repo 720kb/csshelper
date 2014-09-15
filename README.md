@@ -1,7 +1,7 @@
 Css helper
 =========
 
-A easy to use CSS helper including many classes.
+An easy to use CSS helper, every class is a task-like.
 
 <b>N.B:</b> <i>The project is at an early stage, so minor and/or radical changes may be made</i>
 
@@ -11,7 +11,7 @@ link: http://720kb.github.io/csshelper
 
 Contributing
 =========
-We will be much greatful if you help us making this project to grow up.
+We will be much grateful if you help us making this project to grow up.
 Feel free to contribute by forking, opening issues, pull requests etc.
 
 License
