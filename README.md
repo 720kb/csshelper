@@ -5,9 +5,15 @@ An easy to use CSS helper, every class is a task-like.
 
 <b>N.B:</b> <i>The project is at an early stage, so minor and/or radical changes may be made</i>
 
+
 Documentation
 =========
 link: http://720kb.github.io/csshelper
+
+Installing via bower
+=========
+
+bower install csshelper
 
 Contributing
 =========
