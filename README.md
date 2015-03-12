@@ -13,11 +13,7 @@ link: http://720kb.github.io/csshelper
 Installing
 =========
 
-css helper could be installed via bower:
-`bower install csshelper`
-
-or npm
-`npm install csshelper`
+css helper could be installed via bower: `bower install csshelper` or npm `npm install csshelper`
 
 Contributing
 =========

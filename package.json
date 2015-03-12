@@ -4,9 +4,17 @@
   "description": "A css helper to forget traditional frameworks approach.",
   "license": "MIT",
   "homepage": "https://github.com/720kb/csshelper",
-  "author": "Filippo Oretti <filippo.oretti@gmail.com",
+  "author": {
+    "name" : "Filippo Oretti",
+    "email" : "filippo.oretti@gmail.com",
+    "url" : "http://github.com/45kb"
+  },
   "contributors": [
-    "Dario Andrei <wouldgo84@gmail.com>"
+    {
+      "name" : "Dario Andrei",
+      "email" : "wouldgo84@gmail.com",
+      "url" : "http://github.com/wouldgo"
+    }
   ],
   "keywords": [
     "css",
