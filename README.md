@@ -1,4 +1,4 @@
-Css helper
+css helper
 =========
 
 An easy to use CSS helper, every class is a task-like.
@@ -10,10 +10,14 @@ Documentation
 =========
 link: http://720kb.github.io/csshelper
 
-Installing via bower
+Installing
 =========
 
-bower install csshelper
+css helper could be installed via bower:
+`bower install csshelper`
+
+or npm
+`npm install csshelper`
 
 Contributing
 =========
