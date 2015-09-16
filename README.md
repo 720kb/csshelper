@@ -1,10 +1,5 @@
-css helper
-=========
 
 An easy to use CSS helper, every class is a task-like.
-
-<b>N.B:</b> <i>The project is at an early stage, so minor and/or radical changes may be made</i>
-
 
 Documentation
 =========
@@ -19,6 +14,10 @@ Contributing
 =========
 We will be much grateful if you help us making this project to grow up.
 Feel free to contribute by forking, opening issues, pull requests etc.
+
+Gtk
+=========
+- Early stage project, minor as well as radical changes could happen
 
 License
 =========
